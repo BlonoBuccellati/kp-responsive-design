@@ -1,10 +1,10 @@
-# Kevin Powellのレスポンシブデザインの攻略
+# レスポンシブデザインの攻略
 
-レスポンシブデザインの学習
+レスポンシブデザインを学ぶ 21 日間 by Kevin Powell
 
 ## Links
 
-- Solution URL: [Conquering Responsive Layouts by Kevin Powell](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts)
+- Course link: [Conquering Responsive Layouts by Kevin Powell](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts)
 
 ## Tech Stack
 
