@@ -7,6 +7,7 @@ export default function Home() {
         <Link href="Day1">Day1</Link>
         <Link href="Day2">Day2</Link>
         <Link href="Day3">Day3</Link>
+        <Link href="Day4">Day4</Link>
       </div>
     </div>
   );
