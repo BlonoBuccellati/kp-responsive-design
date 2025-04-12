@@ -4,8 +4,8 @@ const Page = () => {
     <>
       <div className="font-roboto text-[1.3rem]">
         <div className="bg-[#23424a] py-[100px] text-white">
-          <div className="m-auto w-[80%] max-w-[1200px] border border-red-100">
-            <div className="w-[60%] border border-yellow-300">
+          <div className="m-auto w-[80%] max-w-[1200px]">
+            <div className="w-[60%]">
               <h1 className="my-4 text-3xl text-[3rem] font-black">
                 Responsive layouts don’t have to be a struggle
               </h1>
