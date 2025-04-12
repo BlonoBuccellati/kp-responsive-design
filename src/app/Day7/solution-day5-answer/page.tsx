@@ -16,7 +16,7 @@ const Page = () => {
               </p>
               <a
                 href="#"
-                className="rounded-full bg-[#38CFD9] px-[2em] py-[.5em] font-black text-[#23424A] uppercase hover:opacity-75"
+                className="inline-block rounded-full bg-[#38CFD9] px-[2em] py-[.5em] leading-[1.2] font-black text-[#23424A] uppercase hover:opacity-75"
               >
                 I want to learn
               </a>
