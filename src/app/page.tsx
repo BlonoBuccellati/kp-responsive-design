@@ -8,6 +8,7 @@ export default function Home() {
         <Link href="Day2">Day2</Link>
         <Link href="Day3">Day3</Link>
         <Link href="Day4">Day4</Link>
+        <Link href="Day5">Day5</Link>
       </div>
     </div>
   );
