@@ -1,4 +1,5 @@
 import HeroSection from "./_components/hero-section";
+import NavHeader from "./_components/nav-header";
 import SellingPointCard from "./_components/selling-point-card";
 // 答え
 const Page = () => {
@@ -6,6 +7,8 @@ const Page = () => {
     <>
       {/* mainはページ全体（１個しかない）の本文エリア。articleは、mainの中に、独立して複数存在する。 */}
       <main className="font-roboto text-[1.3rem]">
+        {/* ナビゲーションバー */}
+        <NavHeader />
         {/* ヒーローセクション */}
         <HeroSection />
         {/* 複数存在するが、独立していないので、articleではなくsectionを使用する */}
