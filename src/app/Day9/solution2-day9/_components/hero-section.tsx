@@ -20,14 +20,13 @@ const HeroSection = () => {
             I want to learn
           </a>
         </div>
-        <div className="flex w-[32%] max-w-full items-start">
-          <Image
-            src="/assets/hero-img.jpg"
-            alt="responsive"
-            width={450}
-            height={450}
-          />
-        </div>
+        <Image
+          src="/assets/hero-img.jpg"
+          alt="responsive"
+          width={450}
+          height={450}
+          className="w-[32%] self-start"
+        />
       </div>
     </section>
   );
