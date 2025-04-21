@@ -12,6 +12,9 @@ const Page = () => {
       <Link href={`${pathname}/day12-challenges-answer_add-media-query`}>
         day12-challenges-answer_add-media-query ２個目（段々と書いていく）
       </Link>
+      <Link href={`${pathname}/day12-challenges-answer_min-height`}>
+        day12-challenges-answer_min-height ３個目（段々と書いていく）
+      </Link>
     </div>
   );
 };
