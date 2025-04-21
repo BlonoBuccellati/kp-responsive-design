@@ -8,6 +8,7 @@ const Page = () => {
     <div className="flex flex-col gap-4 font-bold">
       <Link href={`${pathname}/practice-day12`}>practice-day12</Link>
       <Link href={`${pathname}/practice2-day12`}>practice2-day12</Link>
+      <Link href={`${pathname}/practice3-day12`}>practice3-day12</Link>
     </div>
   );
 };
