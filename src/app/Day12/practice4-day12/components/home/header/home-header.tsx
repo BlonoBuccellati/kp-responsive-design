@@ -4,7 +4,7 @@ import NavItem from "./nav-item";
 
 const HomeHeader = () => {
   return (
-    <header className="bg-[#136c72] py-[1em] text-white">
+    <header className="bg-[#136c72] py-[1em] text-[1rem] text-white">
       <div className="mx-auto flex w-[80%] max-w-[1100px] items-center justify-between">
         <a href="#" className="mr-[1em]">
           <Image
@@ -15,7 +15,7 @@ const HomeHeader = () => {
           />
         </a>
         <nav className="flex w-full justify-between gap-5">
-          <ul className="flex items-center gap-5 font-medium uppercase">
+          <ul className="mx-auto flex items-center gap-5 font-medium uppercase">
             <NavItem name="home" />
             <NavItem name="about" />
             <NavItem name="contact" />
