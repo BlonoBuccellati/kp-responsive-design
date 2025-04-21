@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const HeroSection = () => {
+const HomeHero = () => {
   return (
     <section className="bg-[#23424a] py-25 text-white">
       <div className="mx-auto flex w-[80%] max-w-[1100px] justify-between">
@@ -32,4 +32,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HomeHero;

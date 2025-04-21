@@ -1,6 +1,6 @@
 import NavItem from "./nav-item";
 
-const NavHeader = () => {
+const HomeHeader = () => {
   return (
     <header className="bg-[#136c72] text-white">
       <div className="mx-auto flex w-[80%] max-w-[1100px] justify-between">
@@ -21,4 +21,4 @@ const NavHeader = () => {
   );
 };
 
-export default NavHeader;
+export default HomeHeader;
