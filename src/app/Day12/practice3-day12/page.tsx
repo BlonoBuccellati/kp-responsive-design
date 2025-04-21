@@ -1,5 +1,5 @@
-import HeroSection from "./_components/hero-section";
-import NavHeader from "./_components/nav-header";
+import HeroSection from "./_components/hero/hero-section";
+import NavHeader from "./_components/header/nav-header";
 import SellingPointCard from "./_components/selling-point-card";
 // 答え
 const Page = () => {
