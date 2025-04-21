@@ -14,6 +14,7 @@ export default function Home() {
         <Link href="Day9">Day9</Link>
         <Link href="Day11">Day11</Link>
         <Link href="Day12">Day12</Link>
+        <Link href="Day18">Day18</Link>
       </div>
     </div>
   );
