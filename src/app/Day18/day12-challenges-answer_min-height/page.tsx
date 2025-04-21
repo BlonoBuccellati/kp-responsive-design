@@ -4,7 +4,7 @@ const Page = () => {
     <>
       <main className="font-roboto font-[21px]">
         {/* intro */}
-        <section className="bg-[#F3EED9] py-[4em] text-center text-[#824936]">
+        <section className="flex min-h-[660px] items-center bg-[#F3EED9] py-[4em] text-center text-[#824936]">
           <div className="mx-auto w-[85%] max-w-[1128px]">
             <p className="mb-1 text-lg font-light tracking-[10px] text-[#222C2A] uppercase">
               lorem ipsum sit
@@ -53,25 +53,27 @@ const Page = () => {
                 enim ad minim veniam.
               </p>
             </div>
-            <Image
-              src="/assets/image-01.jpg"
-              width={700}
-              height={700}
-              alt="夕日"
-              className="sm:w-full"
-            />
+            <div className="sm:w-full">
+              <Image
+                src="/assets/image-01.jpg"
+                width={700}
+                height={700}
+                alt="夕日"
+              />
+            </div>
           </div>
         </section>
         {/* 4つ目 */}
         <section className="bg-[#824936] py-[4em]">
           <div className="mx-auto w-[85%] max-w-[1128px] sm:flex sm:gap-[4em]">
-            <Image
-              src="/assets/image-02.jpg"
-              width={700}
-              height={700}
-              alt="夕日2"
-              className="sm:w-full"
-            />
+            <div className="sm:w-full">
+              <Image
+                src="/assets/image-02.jpg"
+                width={700}
+                height={700}
+                alt="夕日2"
+              />
+            </div>
             <div className="sm:w-full">
               <h2 className="font-fair text-4xl leading-11 font-black text-[#F3EED9]">
                 Created with care
