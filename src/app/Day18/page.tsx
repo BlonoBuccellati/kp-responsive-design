@@ -7,7 +7,10 @@ const Page = () => {
   return (
     <div className="flex flex-col gap-4 font-bold">
       <Link href={`${pathname}/day12-challenges-answer_mobile-first`}>
-        day12-challenges-answer_mobile-first１個目（段々と書いていく）
+        day12-challenges-answer_mobile-first １個目（段々と書いていく）
+      </Link>
+      <Link href={`${pathname}/day12-challenges-answer_add-media-query`}>
+        day12-challenges-answer_add-media-query ２個目（段々と書いていく）
       </Link>
     </div>
   );
