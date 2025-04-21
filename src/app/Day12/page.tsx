@@ -6,7 +6,7 @@ const Page = () => {
   const pathname = usePathname();
   return (
     <div className="flex flex-col gap-4 font-bold">
-      <Link href={`${pathname}/solution1-day11`}>solution1-day11</Link>
+      <Link href={`${pathname}/practice-day12`}>practice-day12</Link>
     </div>
   );
 };
