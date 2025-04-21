@@ -4,7 +4,7 @@ interface navItemProps {
 }
 const NavItem = ({ name, className }: navItemProps) => {
   return (
-    <li key={name} className="my-3 leading-none">
+    <li key={name} className="leading-none">
       <a href="#" className={`hover:opacity-75 ${className}`}>
         {name}
       </a>
