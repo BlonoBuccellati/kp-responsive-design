@@ -1,11 +1,19 @@
 const HomeFooter = () => {
   return (
-    <footer>
-      <h2>Just scratching the surface</h2>
+    <footer className="bg-matte-dark text-preset-3 text-white">
+      <h2 className="text-preset-2">Just scratching the surface</h2>
+      <div>
+        <h3 className="text-matte-beige text-preset-1">About our company</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        </p>
+      </div>
       <nav>
         <ul>
-          <li>
-            <h3>Getting around</h3>
+          <li className="">
+            <h3 className="text-matte-beige text-preset-1">Getting around</h3>
           </li>
           <li>
             <a href="#">Home</a>
@@ -19,7 +27,7 @@ const HomeFooter = () => {
         </ul>
         <ul>
           <li>
-            <h3>Other things</h3>
+            <h3 className="text-matte-beige text-preset-1">Other things</h3>
           </li>
           <li>
             <a href="#">Lorem ipsum</a>
@@ -36,7 +44,7 @@ const HomeFooter = () => {
         </ul>
         <ul>
           <li>
-            <h3>And more</h3>
+            <h3 className="text-matte-beige text-preset-1">And more</h3>
           </li>
           <li>
             <a href="#">Lorem ipsum</a>

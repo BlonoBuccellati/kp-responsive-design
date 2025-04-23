@@ -1,8 +1,8 @@
 const HomeFeaturesContent = () => {
   return (
-    <section>
+    <section className="text-preset-3 bg-[#e6e6e0]">
       <div>
-        <h2>Mobile-first</h2>
+        <h2 className="text-matte-beige text-preset-5">Mobile-first</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -10,7 +10,7 @@ const HomeFeaturesContent = () => {
         </p>
       </div>
       <div>
-        <h2>Efficient</h2>
+        <h2 className="text-matte-beige text-preset-5">Efficient</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -18,7 +18,7 @@ const HomeFeaturesContent = () => {
         </p>
       </div>
       <div>
-        <h2>Done right</h2>
+        <h2 className="text-matte-beige text-preset-5">Done right</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

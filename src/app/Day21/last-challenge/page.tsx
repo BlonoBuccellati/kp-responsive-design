@@ -7,13 +7,15 @@ import HomeFooter from "./components/home/footer";
 
 const Page = () => {
   return (
-    <main>
-      <HomeHeader />
-      <HomeHeroSection />
-      <HomeFeaturesContent />
-      <HomeContent />
-      <HomeAsideContents />
-      <HomeFooter />
+    <main className="">
+      <div>
+        <HomeHeader />
+        <HomeHeroSection />
+        <HomeFeaturesContent />
+        <HomeContent />
+        <HomeAsideContents />
+        <HomeFooter />
+      </div>
     </main>
   );
 };

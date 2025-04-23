@@ -31,13 +31,13 @@
 }
 
 @utility text-preset-2 {
+  font-size: clamp(3rem, 1.425rem + 6.72vw, 5.625rem);
   font-family: var(--font-oswald);
   font-weight: 600;
-  font-size: 90px;
 }
 @utility text-preset-3 {
   font-family: var(--font-montserrat);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
 }
 
