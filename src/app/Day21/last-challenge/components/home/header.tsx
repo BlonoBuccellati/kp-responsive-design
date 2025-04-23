@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const HomeHeader = () => {
   return (
-    <header className="bg-matte-dark text-preset-4 pt-8 text-white">
-      <div className="mx-auto max-w-[350px]">
+    <header className="bg-matte-dark text-preset-4 p-8 text-white">
+      <div className="">
         {/* logo */}
         <Image src={HeaderIcon} alt="icon" width={55} />
         <nav>
