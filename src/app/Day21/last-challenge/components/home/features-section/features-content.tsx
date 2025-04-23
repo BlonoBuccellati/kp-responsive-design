@@ -2,8 +2,8 @@ import FeatureCard from "./feature-card";
 
 const HomeFeaturesContent = () => {
   return (
-    <section className="text-preset-3 bg-[#e6e6e0] p-8">
-      <div className="mb-2.5">
+    <section className="text-preset-3 bg-[#e6e6e0] py-8">
+      <div className="mb-2.5 md:flex md:justify-around">
         <FeatureCard title="Mobile-first">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
