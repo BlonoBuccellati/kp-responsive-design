@@ -8,7 +8,7 @@ const HomeHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="bg-matte-dark text-preset-4 px-8 py-5 text-white">
-      <div className="">
+      <div className="w-full md:flex md:justify-between">
         {/* logo */}
         <button onClick={() => setIsOpen((prev) => !prev)}>
           <Image
@@ -18,8 +18,8 @@ const HomeHeader = () => {
             className="hover:cursor-pointer hover:opacity-75"
           />
         </button>
-        <nav className={`${isOpen ? "block" : "hidden"}`}>
-          <ul className="uppercase">
+        <nav className={`${isOpen ? "block" : "hidden"} md:block`}>
+          <ul className="items-center uppercase md:flex md:justify-end">
             <li className="px-6">
               <a href="#" className="hover:opacity-75">
                 home
