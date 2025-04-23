@@ -5,7 +5,7 @@ interface FooterNavListProps {
 const FooterNavList = ({ title, items }: FooterNavListProps) => {
   return (
     <ul>
-      <li className="">
+      <li>
         <h3 className="text-matte-beige text-preset-1 py-4">{title}</h3>
       </li>
       {items.map((item) => {

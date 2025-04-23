@@ -1,6 +1,6 @@
 const HomeHeroSection = () => {
   return (
-    <section className="bg-matte-gray p-8 text-white">
+    <section className="bg-matte-gray min-h-[92vh] p-8 text-white">
       <h1 className="text-preset-2">
         Responsive layouts{" "}
         <span className="text-matte-beige">don’t have to be a struggle</span>
