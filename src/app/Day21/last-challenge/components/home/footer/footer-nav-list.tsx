@@ -11,7 +11,7 @@ const FooterNavList = ({ title, items }: FooterNavListProps) => {
       {items.map((item) => {
         return (
           <li key={item} className="pb-3">
-            <a href="#" className="hover:opacity-75">
+            <a href="#" className="py-3 pr-1 hover:opacity-75">
               {item}
             </a>
           </li>
